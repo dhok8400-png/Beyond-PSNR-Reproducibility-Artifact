@@ -9,11 +9,16 @@ Repository ownership does not determine manuscript authorship.
 2. **Habib Izadkhah** — corresponding author — izadkhah@tabrizu.ac.ir
 3. **Jaber Karimpour** — karimpour@tabrizu.ac.ir
 
+## Affiliation
+
+All three authors share the following affiliation:
+
+**Department of Computer Science, Faculty of Mathematics, Statistics and Computer Science, University of Tabriz, Tabriz, Iran**
+
 ## Corresponding author
 
 - **Name:** Habib Izadkhah
 - **Email:** izadkhah@tabrizu.ac.ir
-- **ORCID:** Not provided
 
 ## Repository maintainer
 
