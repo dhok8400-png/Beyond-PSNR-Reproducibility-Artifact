@@ -1,0 +1,15 @@
+{
+  "references_total": 44,
+  "all_cited": true,
+  "verified": 43,
+  "verified_with_boundary": 1,
+  "actions": {
+    "ADD DOI; NOTE PAGINATION CONVENTION": 1,
+    "CORRECT AUTHOR NAMES": 1,
+    "KEEP": 39,
+    "KEEP; PROVENANCE ONLY / LICENSE NOT VERIFIED": 1,
+    "KEEP; VERSION VERIFIED": 1,
+    "NORMALIZE AUTHOR SPELLING/CAPITALIZATION": 1
+  },
+  "correction_refs": [25,31,39]
+}
