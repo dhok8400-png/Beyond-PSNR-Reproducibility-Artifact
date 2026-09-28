@@ -3,8 +3,13 @@
   "description": "Code, protocol records, derived results, and supplementary materials supporting the associated image-steganography manuscript. Source images are not redistributed.",
   "creators": [
     {
-      "name": "[Family name, Given name]",
-      "orcid": "[ORCID if available]"
+      "name": "Abdullah, Ahmed Fouad"
+    },
+    {
+      "name": "Izadkhah, Habib"
+    },
+    {
+      "name": "Karimpour, Jaber"
     }
   ],
   "keywords": [
