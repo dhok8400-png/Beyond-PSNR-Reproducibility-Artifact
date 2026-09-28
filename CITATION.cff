@@ -6,13 +6,17 @@ authors:
   - family-names: "Abdullah"
     given-names: "Ahmed Fouad"
     email: "ahmedwebdeveloper1980@gmail.com"
+    affiliation: "Department of Computer Science, Faculty of Mathematics, Statistics and Computer Science, University of Tabriz, Tabriz, Iran"
   - family-names: "Izadkhah"
     given-names: "Habib"
     email: "izadkhah@tabrizu.ac.ir"
+    affiliation: "Department of Computer Science, Faculty of Mathematics, Statistics and Computer Science, University of Tabriz, Tabriz, Iran"
   - family-names: "Karimpour"
     given-names: "Jaber"
     email: "karimpour@tabrizu.ac.ir"
+    affiliation: "Department of Computer Science, Faculty of Mathematics, Statistics and Computer Science, University of Tabriz, Tabriz, Iran"
 repository-code: "https://github.com/dhok8400-png/Beyond-PSNR-Reproducibility-Artifact"
+doi: "10.5281/zenodo.23020088"
 license: MIT
 keywords:
   - image steganography
