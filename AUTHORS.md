@@ -1,29 +1,24 @@
 # Authors and Repository Roles
 
-**Complete this file before public release.**
-
-The GitHub account that hosts the repository may differ from the manuscript author list.
-Repository ownership does not define scientific authorship.
+The GitHub account hosting this repository is separate from the scientific authorship record.
+Repository ownership does not determine manuscript authorship.
 
 ## Manuscript authors
 
-Enter the authors exactly as they appear in the manuscript, in the same order:
-
-1. [Author 1]
-2. [Author 2]
-3. [Author 3, if applicable]
+1. **Ahmed Fouad Abdullah** — ahmedwebdeveloper1980@gmail.com
+2. **Habib Izadkhah** — izadkhah@tabrizu.ac.ir
+3. **Jaber Karimpour** — karimpour@tabrizu.ac.ir
 
 ## Corresponding author
 
-- Name: [Corresponding author]
-- Email: [Corresponding email]
-- ORCID: [ORCID, if available]
+- **Name:** Ahmed Fouad Abdullah
+- **Email:** ahmedwebdeveloper1980@gmail.com
+- **ORCID:** Not provided
 
 ## Repository maintainer
 
-- GitHub account: dhok8400-png
-- Maintainer name: [Maintainer name]
-- Role: [Repository maintainer / technical maintainer / manuscript author, as applicable]
+- **GitHub account:** dhok8400-png
+- **Maintainer:** Ahmed Fouad Abdullah
+- **Role:** Repository maintainer and manuscript author
 
-Do not list a repository maintainer as a manuscript author unless that person meets the
-authorship criteria applied to the manuscript.
+The author order above follows the manuscript information supplied for this reproducibility artifact.
