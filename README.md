@@ -5,7 +5,7 @@ Reproducibility materials for the manuscript:
 **Beyond PSNR: A Reproducible Ablation and Detection Study of PSO–Huffman–Bit Match Image Steganography**
 
 **Authors:** Ahmed Fouad Abdullah; Habib Izadkhah; Jaber Karimpour  
-**Corresponding author:** Ahmed Fouad Abdullah — ahmedwebdeveloper1980@gmail.com
+**Corresponding author:** Habib Izadkhah — izadkhah@tabrizu.ac.ir
 
 This repository contains the Python reference implementation, frozen experiment metadata,
 derived numerical results, matched-selector steganalysis records, and supplementary identity
