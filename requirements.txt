@@ -1,0 +1,7 @@
+# Core versions recorded in the audited environment
+numpy==2.3.5
+scipy==1.16.3
+Pillow==12.3.0
+
+# Used for the full-SRM / FLD steganalysis experiment
+sealwatch==2025.9
