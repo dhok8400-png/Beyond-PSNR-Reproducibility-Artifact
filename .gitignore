@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local source images — intentionally not versioned
+data/covers/
+covers/
+*.dcm
+
+# Large locally regenerated intermediates
+features/
+stegos/
+*.npy
+
+# Temporary outputs
+tmp/
+temp/
