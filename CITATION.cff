@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility artifact, please cite the associated manuscript and archived repository release."
+title: "Beyond PSNR: Reproducibility Artifact for PSO–Huffman–Bit Match Image Steganography"
+type: software
+authors:
+  - family-names: "Abdullah"
+    given-names: "Ahmed Fouad"
+    email: "ahmedwebdeveloper1980@gmail.com"
+  - family-names: "Izadkhah"
+    given-names: "Habib"
+    email: "izadkhah@tabrizu.ac.ir"
+  - family-names: "Karimpour"
+    given-names: "Jaber"
+    email: "karimpour@tabrizu.ac.ir"
+repository-code: "https://github.com/dhok8400-png/Beyond-PSNR-Reproducibility-Artifact"
+keywords:
+  - image steganography
+  - particle swarm optimization
+  - Huffman coding
+  - Bit Match
+  - steganalysis
+  - reproducibility
