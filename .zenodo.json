@@ -1,0 +1,20 @@
+{
+  "title": "Beyond PSNR: Reproducibility Artifact for PSO–Huffman–Bit Match Image Steganography",
+  "description": "Code, protocol records, derived results, and supplementary materials supporting the associated image-steganography manuscript. Source images are not redistributed.",
+  "creators": [
+    {"name": "Abdullah, Ahmed Fouad"},
+    {"name": "Izadkhah, Habib"},
+    {"name": "Karimpour, Jaber"}
+  ],
+  "keywords": [
+    "image steganography",
+    "particle swarm optimization",
+    "Huffman coding",
+    "Bit Match",
+    "steganalysis",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "upload_type": "software",
+  "license": "MIT"
+}
