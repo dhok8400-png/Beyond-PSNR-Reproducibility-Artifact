@@ -6,13 +6,13 @@ Repository ownership does not determine manuscript authorship.
 ## Manuscript authors
 
 1. **Ahmed Fouad Abdullah** — ahmedwebdeveloper1980@gmail.com
-2. **Habib Izadkhah** — izadkhah@tabrizu.ac.ir
+2. **Habib Izadkhah** — corresponding author — izadkhah@tabrizu.ac.ir
 3. **Jaber Karimpour** — karimpour@tabrizu.ac.ir
 
 ## Corresponding author
 
-- **Name:** Ahmed Fouad Abdullah
-- **Email:** ahmedwebdeveloper1980@gmail.com
+- **Name:** Habib Izadkhah
+- **Email:** izadkhah@tabrizu.ac.ir
 - **ORCID:** Not provided
 
 ## Repository maintainer
