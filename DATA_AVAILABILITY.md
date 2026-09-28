@@ -13,14 +13,15 @@ The exact 36 study image identifiers and SHA-256 hashes are provided in:
 
 ## Repository-provided materials
 
-This repository provides:
+The Python reference code, frozen protocol and environment records, derived numerical results,
+matched-selector detector outputs and split records, supplementary hash manifest, and analysis
+materials are available in this repository:
 
-- Python reference code;
-- frozen protocol and environment records;
-- derived numerical results;
-- matched-selector detector outputs and split records;
-- supplementary hash manifest;
-- reference-audit records.
+https://github.com/dhok8400-png/Beyond-PSNR-Reproducibility-Artifact
+
+The repository release is archived on Zenodo at:
+
+**DOI: 10.5281/zenodo.23020088**
 
 ## Scientific scope
 
