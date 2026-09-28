@@ -1,0 +1,9 @@
+Suggested manuscript Data Availability Statement after GitHub/Zenodo release:
+
+The source image archive is publicly accessible from the Kaggle “DICOM data” dataset [44].
+The 36 study identifiers and SHA-256 hashes used for file-identity checking are provided in
+the supplementary reproducibility materials. Source JPEGs are not redistributed because a
+dataset-level redistribution license could not be independently verified from the accessible
+metadata. The Python reference implementation, frozen protocol and environment records,
+derived numerical results, and detector split/prediction records are available at
+[GitHub repository URL] and archived at [Zenodo DOI].
