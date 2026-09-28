@@ -54,8 +54,8 @@ See `REPRODUCIBILITY.md`.
 The GitHub account hosting this repository does **not** determine scientific authorship.
 The manuscript author list and order are recorded in `AUTHORS.md` and `CITATION.cff`.
 
-GitHub's **Cite this repository** feature can use the `CITATION.cff` metadata. A Zenodo DOI
-will be added after the first archived release.
+GitHub's **Cite this repository** feature uses the `CITATION.cff` metadata. The archived
+Zenodo release is available at **DOI: 10.5281/zenodo.23020088**.
 
 ## License
 
