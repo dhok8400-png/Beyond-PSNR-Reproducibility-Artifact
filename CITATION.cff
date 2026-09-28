@@ -13,6 +13,7 @@ authors:
     given-names: "Jaber"
     email: "karimpour@tabrizu.ac.ir"
 repository-code: "https://github.com/dhok8400-png/Beyond-PSNR-Reproducibility-Artifact"
+license: MIT
 keywords:
   - image steganography
   - particle swarm optimization
