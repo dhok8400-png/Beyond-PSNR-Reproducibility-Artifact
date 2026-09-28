@@ -1,0 +1,46 @@
+{
+  "version": "extensions-1",
+  "created_before_execution": true,
+  "created_local": "2026-09-22T23:56:00+0300",
+  "source_message": "inputs/text_4096.bin",
+  "source_bytes": 4096,
+  "source_sha256": "e8b411d2d79c48dc9dcc98420dc0988695958303706a49c1ba0f4066639bb36c",
+  "images": 36,
+  "seeds": [
+    20260918,
+    20260919,
+    20260920,
+    20260921,
+    20260922
+  ],
+  "ablation": "Greedy/PSO x Huffman off/on x Bit Match off/on; greedy once and PSO five seeds = 864 runs. Same-source-message analysis plus identical-stream paired selector/Bit Match effects within each compression level.",
+  "sensitivity_configurations": {
+    "baseline": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":30,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "swarm_10": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":10,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "swarm_20": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":20,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "swarm_50": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":50,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "iterations_25": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":30,"max_iter":25,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "iterations_50": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":30,"max_iter":50,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "iterations_150": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":30,"max_iter":150,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "variance_only": {"alpha":1.0,"beta":0.0,"gamma":0.0,"swarm_size":30,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "edge_only": {"alpha":0.0,"beta":1.0,"gamma":0.0,"swarm_size":30,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "contrast_only": {"alpha":0.0,"beta":0.0,"gamma":1.0,"swarm_size":30,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.0,"c2":2.0,"seed":20260918},
+    "acceleration_1p5": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":30,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":1.5,"c2":1.5,"seed":20260918},
+    "acceleration_2p5": {"alpha":0.3333333333333333,"beta":0.3333333333333333,"gamma":0.3333333333333333,"swarm_size":30,"max_iter":100,"w_start":0.9,"w_end":0.4,"c1":2.5,"c2":2.5,"seed":20260918}
+  },
+  "sensitivity_runs": 2160,
+  "timing": "Measured wall time under four parallel image workers. PSO selection batched across five seeds and divided by five; cumulative prefix timings reused across conditions. Embed/decode exclude I/O and metrics. No standalone latency claim.",
+  "steganalysis": {
+    "feature": "Full SRM 34671, sealwatch 2025.9 Python implementation",
+    "classifier": "FLD ensemble, L=101, d_sub=200 fixed before evaluation, no test tuning",
+    "detector_seeds": [20260922,20260923,20260924],
+    "embedding_seed": 20260918,
+    "payloads": ["text_4096","text_8192"],
+    "split": "Leave one archive series folder out; all files of an image and all series siblings remain together; 4 folds sized 11,12,12,1; folders are proxy groups, not verified patient IDs",
+    "preprocess": "Cover decoded JPEG and stego decoded lossless PNG, identical 512x512 grayscale arrays, no resize/augmentation",
+    "scope": "Exploratory small-sample detection; no SRNet training or generalization claim",
+    "threshold": "confidence > 0 predicts stego; ties assigned cover; AUC uses confidence ranks",
+    "report": "Per-fold and pooled out-of-fold Accuracy, AUC, FPR, FNR, confusion matrices; ROC; all scores and splits saved"
+  },
+  "medical_validation": "Verify files, JPEG properties, series grouping, duplicates, global metrics; clinical ROI/reader evaluation unavailable. Supplementary fixed central geometric ROI is explicitly nonclinical. No patient data or DICOM metadata inferred."
+}
