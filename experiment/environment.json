@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "pillow": "12.3.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 4,
+  "cpu_count": 16,
+  "code_hashes": {
+    "run_extensions.py": "1d2eff8d809cc1e1df6cebbfe954aed6586238f1bc3d38dba1e074b75c5532de"
+  }
+}
