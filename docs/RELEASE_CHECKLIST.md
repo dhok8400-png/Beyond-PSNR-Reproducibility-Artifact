@@ -5,7 +5,7 @@
 - [x] Confirm corresponding author details.
 - [x] Complete `AUTHORS.md`.
 - [x] Create `CITATION.cff` from `CITATION.cff.template`.
-- [x] Complete Zenodo creator metadata in `.zenodo.json.template`.
+- [x] Complete Zenodo creator metadata in `.zenodo.json`.
 - [x] Choose a code/repository license with author/rightsholder approval — MIT.
 - [x] Confirm that no source JPEG/DICOM files are committed.
 - [x] Confirm `Supplementary_Table_S1_Image_Identity_Manifest.csv` is present.
