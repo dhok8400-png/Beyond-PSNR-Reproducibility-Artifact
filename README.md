@@ -4,6 +4,9 @@ Reproducibility materials for the manuscript:
 
 **Beyond PSNR: A Reproducible Ablation and Detection Study of PSO–Huffman–Bit Match Image Steganography**
 
+**Authors:** Ahmed Fouad Abdullah; Habib Izadkhah; Jaber Karimpour  
+**Corresponding author:** Ahmed Fouad Abdullah — ahmedwebdeveloper1980@gmail.com
+
 This repository contains the Python reference implementation, frozen experiment metadata,
 derived numerical results, matched-selector steganalysis records, and supplementary identity
 information used in the final evidence-reconciled manuscript.
@@ -49,7 +52,10 @@ See `REPRODUCIBILITY.md`.
 ## Citation and authorship
 
 The GitHub account hosting this repository does **not** determine scientific authorship.
-The repository citation must use the manuscript's actual author list and order.
+The manuscript author list and order are recorded in `AUTHORS.md` and `CITATION.cff`.
+
+GitHub's **Cite this repository** feature can use the `CITATION.cff` metadata. A Zenodo DOI
+will be added after the first archived release.
 
 ## Repository status
 
