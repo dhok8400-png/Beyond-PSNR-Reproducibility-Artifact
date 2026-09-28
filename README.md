@@ -57,6 +57,14 @@ The manuscript author list and order are recorded in `AUTHORS.md` and `CITATION.
 GitHub's **Cite this repository** feature can use the `CITATION.cff` metadata. A Zenodo DOI
 will be added after the first archived release.
 
+## License
+
+The repository's software and original documentation are released under the **MIT License**.
+See `LICENSE`.
+
+This license does **not** apply to the external source images from the Kaggle dataset. Those
+images are not redistributed here.
+
 ## Repository status
 
 This artifact is prepared for public archival and manuscript reproducibility. Source images
